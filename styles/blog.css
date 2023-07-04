@@ -1,37 +1,84 @@
-*{
-    background-image: url(/favicon/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
-    margin: 20px;
+body{
+    font-family: sans-serif;
 }
 
-.para{
+.name {
     text-align: center;
-    font-size: large;
-    color: white;
-    text-shadow: 5px 5px 8px yellow;
+    text-transform: uppercase;
+    font-size: 60px;
 }
-div{
+
+.quote-wrapper {
+    margin: 0 400px;
+}
+
+.quote{
     text-align: center;
-    background-color: antiquewhite;
-    color: whitesmoke;
-    border: 5px solid tomato;
-    padding: 10px;
-    box-shadow: 5px 5px 8px purple;
-    text-shadow: 4px 4px 7px  purple;
+    font-size: 20px;
+    color: rgb(113, 44, 252);
+    /* text-shadow: 5px 5px 8px yellow; */
 }
+
+.dev-info {
+    font-size: 20px;
+    
+}
+
+.dev-img {
+    display: block;
+    margin: 0 auto;
+ 
+}
+
+
 .chand{
     text-align: center;
     background-color: purple;
     color: aliceblue;
     padding: 10px;
     border: 5px double black;
-    box-shadow: 5px 5px 8px purple;
+    /* box-shadow: 5px 5px 8px purple; */
 }
 
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    box-shadow: 5px 10px 15px 20px purple;
-    border: 5px purple;
+
+.contact-section {
+    background: coral;
+   
+}
+
+.contact-wrapper {
+    margin-left: 40%;
+}
+
+.contact-heading{
+    padding-top: 30px;
+    font-size: 40px;
+    margin-left: 58px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.input-field {
+    width: 350px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(245, 245, 245) ;
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.submit {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: rgb(0, 125, 19);
+    margin-left: 120px;
+    margin-bottom: 50px;
 }
